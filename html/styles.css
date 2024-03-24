@@ -1,0 +1,328 @@
+:root {
+    --primary-color: #c8c4ba;
+    --secondary-color: #787878;
+    --links: #f0eee1;
+    --font-family: 'Proxima Nova', sans-serif;
+    --primary-color-dark: #67625a;
+    --secondary-color-dark: #464646;
+    --links-dark: #bfbfbf;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.header {
+    transition: transform 150ms ease;
+    transform: translate3d(0,0,0);
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.logo a {
+    color: var(--links);
+}
+
+.social-icons {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons li {
+    margin-right: 10px; /* Adjust the space between icons */
+}
+
+.social-icons li:last-child {
+    margin-right: 0; /* Remove margin from the last icon */
+}
+
+.social-icons li a i {
+    color: var(--secondary-color); /* Change the color of the icons */
+}
+
+.social-icons li a i:hover {
+    color: var(--primary-color);
+}
+
+.nav-item {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.nav-item a {
+    color: var(--links);
+}
+
+.nav-item a:hover {
+    color: var(--primary-color)
+}
+
+.nav-subscribe {
+    color: var(--secondary-color);
+}
+
+#news {
+    position: relative; /* Add relative positioning to the section */
+    overflow: hidden; /* Ensure content within the section is contained */
+    background: var(--primary-color);
+}
+
+.background-img {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    filter: grayscale(); 
+    opacity: .15;
+}
+
+.card-overlay {
+    position: relative; /* Change to relative */
+    z-index: 1; /* Ensure the card overlay is above the background image */
+}
+
+.card {
+    border: none;
+    background: none;
+}
+
+#gigs {
+    background: radial-gradient(circle, rgba(99,97,80,1) 0%, rgba(57,57,57,1) 35%, rgba(194,193,185,1) 100%);
+}
+
+
+#upcoming-gigs {
+    max-width: 890px;
+    margin: 0 auto;
+    padding: 0 10px;
+    text-align: center;
+    background: 0 0;
+    text-transform: uppercase;
+    line-height: 1.3em;
+    margin-top: 0;
+    font-family: var(--font-family);
+    margin-bottom: 0;
+    letter-spacing: 4px;
+    font-weight: 400;
+    color: var(--primary-color);
+    font-size: 18px;
+    text-align: left;
+    padding: 0 10px;
+}
+
+.table-responsive {
+    max-width: 890px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.table {
+    min-height: 350px;
+    padding: 20px 0 0;
+    margin: 0;
+}
+
+.tbody {
+    width: 100%;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.tbody:first-child{
+    padding-top: 0;
+}
+
+.gig-date {
+    width: 140px;
+    padding-right: 10px;
+    margin-bottom: 9px;
+    color: var(--secondary-color);
+    font-size: 16px;
+    letter-spacing: 2px;
+    transition: 250ms all ease;
+    font-weight: bold;
+}
+.gigs-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Center items horizontally */
+    gap: 20px; /* Adjust the gap between gigs */
+}
+
+.gig {
+    display: inline-flex; /* Keep gig elements inline */
+    gap: 30px; /* Adjust the gap between gig elements */
+    align-items: center; /* Center items vertically */
+}
+
+.gig-date {
+    font-weight: bold;
+}
+
+.gig-info {
+    margin-bottom: 10px; /* Add spacing between date and info */
+}
+
+.gig-time {
+    font-size: 14px;
+    color: var(--secondary-color);
+}
+
+#blog {
+    padding-top: 0;
+    background: var(--primary-color);
+}
+
+.py-5 {
+    padding-top: 0;
+}
+.blog-heading-container {
+    background: var(--primary-color);
+    text-align: center;
+}
+
+.h2 {
+    text-align: center;
+    padding: 26px 10px;
+    letter-spacing: 4px;
+    font-weight: 400;
+    color: var(--primary-color-dark);
+    text-transform: uppercase;
+}
+
+.blog-container {
+    background: var(--);
+}
+.card {
+    border: none; /* Remove border */
+}
+
+.card-body {
+    padding: 1.25rem; /* Add padding */
+}
+
+.card-footer {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125); /* Add border to the bottom */
+}
+
+.card-title {
+    font-weight: 400;
+    position: relative;
+    font-size: 18px;
+    margin: 0 auto 15px;
+    padding-bottom: 15px;
+    text-transform: none;
+}
+
+.card-text {
+    color: var(--secondary-color);
+}
+
+.read-more {
+    text-transform: uppercase;
+    background: 0 0;
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+    font-size: 13px;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.pagination {
+    position: relative;
+    text-align: center;
+    margin: 20px 10px;
+    background-color: var(--primary-color);
+}
+
+.pagination,
+.page-link {
+    background-color: var(--primary-color); /* Change the background color to the primary color variable */
+}
+
+
+
+.page-item {
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.page-link {
+    display: inline-block;
+    padding: 0 8px;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--links); /* Change text color */
+    border: none;
+}
+
+.page-link:hover {
+    color: var(--primary-color-dark); /* Change text color on hover */
+}
+
+.page-item.active .page-link {
+    background-color: var(--primary-color-dark); /* Change background color of active page */
+    border-color: var(--primary-color-dark); /* Change border color of active page */
+}
+
+.page-item.disabled .page-link {
+    background-color: var(--primary-color);
+    color: var(--secondary-color-dark); /* Change text color of disabled page */
+}
+
+#music {
+    background: var(--links);
+}
+
+.tracks-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.track-list-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: transparent; /* Set background color to transparent */
+    border-bottom: 1px solid var(--secondary-color); /* Add border bottom */
+}
+
+.track-list-item audio {
+    margin-right: 10px; /* Adjust spacing between audio player and details */
+}
+
+.track-details {
+    flex-grow: 1; /* Allow details to grow and take up remaining space */
+}
+
+.track-number,
+.title,
+.track-duration {
+    color: var(--secondary-color);
+    margin: 0;
+}
+
+/* Adjust spacing and styles as needed */
+#videos {
+    background-color: var(--primary-color);
+}
+
+#subscribe{
+    background-color: var(--links);
+}

@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Browne</title>
+    <script src="https://kit.fontawesome.com/71c619b758.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+<header class="bg-dark py-3">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col text-center">
+                <h1 class="logo"><a href="index.html" class="text-decoration-none">Daniel Browne</a></h1>
+            </div>
+        </div>
+
+        <div class="row align-items-center">
+            <div class="col">
+                <ul class="social-icons d-flex justify-content-center">
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <!-- Navigation Menu -->
+                <nav class="text-center">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col">
+                <!-- Button -->
+                <div class="text-center">
+                    <li class="nav-item" id="nav-subscribe"><a class="nav-link" href="#">Subscribe</a></li>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</header>
+
+<section class="py-5" id="news">
+    <div class="container position-relative">
+        <img src="images/background.jpg" class="background-img" alt="Background Image">
+        <div class="card-overlay d-flex justify-content-center align-items-center">
+            <div class="card text-center">
+                <div class="card-body">
+                    <h5 class="card-title">Card Title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="nav-link">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Gigs Section -->
+<section class="py-5" id="gigs">
+    <div class="container">
+        <h2 class="text-center mb-4 h2" >Upcoming Gigs</h2>
+        <div class="gigs-container">
+            <div class="gig">
+                <div class="gig-date">04.03.2024</div>
+                <div class="gig-info">
+                    <strong>New York City</strong><br>Living it up in Time Square
+                </div>
+                <div class="gig-time">8:00 PM</div>
+            </div>
+            <div class="gig">
+                <div class="gig-date">04.03.2024</div>
+                <div class="gig-info">
+                    <strong>New York City</strong><br>Living it up in Time Square
+                </div>
+                <div class="gig-time">8:00 PM</div>
+            </div>
+            <!-- Add more gigs here -->
+        </div>
+        
+        
+    </div>
+</section>
+
+
+<!-- Blog Section -->
+<section id="blog" class="py-5">
+    <div class="blog-heading-container">
+        <h2 class="text-center mb-4 h2">News</h2>
+    </div>
+    <div class="container" id="blog-container">
+        <div class="row justify-content-center">
+            <!-- Blog Posts -->
+            <div class="col-md-8">
+                <!-- Blog Post 1 -->
+                <div class="card mb-4">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="images/background.jpg" class="img-fluid" alt="Blog Image">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h2 class="card-title">Blog Post Title 1</h2>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nibh nec vehicula dapibus, mi magna dignissim urna, ut feugiat risus enim eu odio.</p>
+                                <a href="#" class="read-more">Read More →</a>
+                            </div>
+                            <div class="card-footer text-muted">Posted on January 1, 2024</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog Post 2 -->
+                <div class="card mb-4">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="images/background.jpg" class="img-fluid" alt="Blog Image">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h2 class="card-title">Blog Post Title 2</h2>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nibh nec vehicula dapibus, mi magna dignissim urna, ut feugiat risus enim eu odio.</p>
+                                <a href="#" class="read-more">Read More →</a>
+                            </div>
+                            <div class="card-footer text-muted">Posted on January 2, 2024</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pagination -->
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                    </li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="py-5" id="music">
+    <div class="container text-center">
+        <!-- Section Heading -->
+        <h2 class="text-center mb-4 h2">Music</h2>
+        
+        <!-- List of Tracks -->
+        <div class="tracks">
+            <ul class="tracks-list">
+                <li class="track-list-item">
+                    <audio controls>
+                        <source src="tracks/Dirk Dehler - no rules.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <div class="track-number">1</div>
+                    <div class="title">Dirk Dehler - no rules</div>
+                    <div class="track-duration">2:45</div>
+                </li>
+                <li class="track-list-item">
+                    <audio controls>
+                        <source src="tracks/Dirk Dehler - no rules.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <div class="track-number">1</div>
+                    <div class="title">Dirk Dehler - no rules</div>
+                    <div class="track-duration">2:45</div>
+                </li><li class="track-list-item">
+                    <audio controls>
+                        <source src="tracks/Dirk Dehler - no rules.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <div class="track-number">1</div>
+                    <div class="title">Dirk Dehler - no rules</div>
+                    <div class="track-duration">2:45</div>
+                </li><li class="track-list-item">
+                    <audio controls>
+                        <source src="tracks/Dirk Dehler - no rules.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <div class="track-number">1</div>
+                    <div class="title">Dirk Dehler - no rules</div>
+                    <div class="track-duration">2:45</div>
+                </li><li class="track-list-item">
+                    <audio controls>
+                        <source src="tracks/Dirk Dehler - no rules.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <div class="track-number">1</div>
+                    <div class="title">Dirk Dehler - no rules</div>
+                    <div class="track-duration">2:45</div>
+                </li><li class="track-list-item">
+                    <audio controls>
+                        <source src="tracks/Dirk Dehler - no rules.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <div class="track-number">1</div>
+                    <div class="title">Dirk Dehler - no rules</div>
+                    <div class="track-duration">2:45</div>
+                </li><li class="track-list-item">
+                    <audio controls>
+                        <source src="tracks/Dirk Dehler - no rules.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <div class="track-number">1</div>
+                    <div class="title">Dirk Dehler - no rules</div>
+                    <div class="track-duration">2:45</div>
+                </li>
+                <!-- Add more track items here -->
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+<!-- Videos Section -->
+<section class="py-5" id="videos">
+    <div class="container">
+        <h2 class="text-center mb-4 h2">Videos</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <!-- Video 1 -->
+            <div class="col">
+                <div class="card">
+                    <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fhairofthedogqueenstown%2Fvideos%2F679088482865369%2F&show_text=false&width=560&t=0" class="card-img-top" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                    <div class="card-body">    
+                        <h5 class="card-title">Video Title 1</h5>
+                    </div>
+                </div>
+            </div>
+            <!-- Video 2 -->
+            <div class="col">
+                <div class="card">
+                    <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fhairofthedogqueenstown%2Fvideos%2F679088482865369%2F&show_text=false&width=560&t=0" class="card-img-top" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                    <div class="card-body">
+                        <h5 class="card-title">Video Title 2</h5>
+                    </div>
+                </div>
+            </div>
+            <!-- Video 3 -->
+            <div class="col">
+                <div class="card">
+                    <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fhairofthedogqueenstown%2Fvideos%2F679088482865369%2F&show_text=false&width=560&t=0" class="card-img-top" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                    <div class="card-body">
+                        <h5 class="card-title">Video Title 3</h5>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more video thumbnails here -->
+        </div>
+    </div>
+</section>
+
+<!-- Photos Section -->
+<section class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4 h2">Photos</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <!-- Photo 1 -->
+            <div class="col">
+                <div class="card">
+                    <img src="images/background.jpg" class="card-img-top" alt="Photo 1">
+                </div>
+            </div>
+            <!-- Photo 2 -->
+            <div class="col">
+                <div class="card">
+                    <img src="images/background.jpg" class="card-img-top" alt="Photo 2">
+                </div>
+            </div>
+            <!-- Photo 3 -->
+            <div class="col">
+                <div class="card">
+                    <img src="images/background.jpg" class="card-img-top" alt="Photo 3">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/background.jpg" class="card-img-top" alt="Photo 1">
+                </div>
+            </div>
+            <!-- Photo 2 -->
+            <div class="col">
+                <div class="card">
+                    <img src="images/background.jpg" class="card-img-top" alt="Photo 2">
+                </div>
+            </div>
+            <!-- Photo 3 -->
+            <div class="col">
+                <div class="card">
+                    <img src="images/background.jpg" class="card-img-top" alt="Photo 3">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/background.jpg" class="card-img-top" alt="Photo 1">
+                </div>
+            </div>
+            <!-- Photo 2 -->
+            <div class="col">
+                <div class="card">
+                    <img src="images/background.jpg" class="card-img-top" alt="Photo 2">
+                </div>
+            </div>
+            <!-- Photo 3 -->
+            <div class="col">
+                <div class="card">
+                    <img src="images/background.jpg" class="card-img-top" alt="Photo 3">
+                </div>
+            </div>
+            <!-- Add more photos here -->
+        </div>
+    </div>
+</section>
+
+<!-- Subscribe Section -->
+<section class="py-5" id="subscribe">
+    <div class="container">
+        <div class="row">
+            <!-- Image Column -->
+            <div class="col-md-6 mb-4">
+                <img src="subscription_image.jpg" class="img-fluid" alt="Subscription Image">
+            </div>
+            <!-- Form Column -->
+            <div class="col-md-6">
+                <h2>Subscribe to Our Newsletter</h2>
+                <p>Stay updated with our latest news and promotions by subscribing to our newsletter.</p>
+                <!-- Subscription Form -->
+                <form>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="bg-dark text-light py-4">
+    <div class="container text-center">
+        <div class="row">
+            <!-- First Column -->
+            <div class="col">
+                <button class="btn btn-primary">Subscribe</button>
+            </div>
+            <!-- Second Column -->
+            <div class="col"></div>
+            <!-- Third Column -->
+            <div class="col">
+                <p>&copy; 2024 Your Website. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+<script>
+    var blogCarousel = document.getElementById('blogCarousel');
+    var carousel = new bootstrap.Carousel(blogCarousel, {
+        interval: 5000, // Set the interval to 5000 milliseconds (5 seconds)
+        keyboard: false,
+        touch: true
+    });
+
+    var musicGallery = document.getElementById('musicGallery');
+    var musicCarousel = new bootstrap.Carousel(musicGallery, {
+        interval: false, // Disable auto sliding
+        keyboard: false,
+        touch: true
+    });
+
+    // Play Button Click Event
+    document.querySelectorAll('.play-btn').forEach(function(button) {
+        button.addEventListener('click', function() {
+            musicCarousel.cycle();
+        });
+    });
+
+    // Stop Button Click Event
+    document.querySelectorAll('.stop-btn').forEach(function(button) {
+        button.addEventListener('click', function() {
+            musicCarousel.pause();
+            musicCarousel.to(0); // Stop at first slide
+        });
+    });
+
+    // Pause Button Click Event
+    document.querySelectorAll('.pause-btn').forEach(function(button) {
+        button.addEventListener('click', function() {
+            musicCarousel.pause();
+        });
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+/* reset.css */
+
+/* Apply a basic reset */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Remove default list styles */
+ul, ol {
+    list-style: none;
+}
+
+/* Remove default text styles */
+body, h1, h2, h3, h4, p, figure, blockquote, dl, dd, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+/* Additional resets can be added based on your project's needs */
