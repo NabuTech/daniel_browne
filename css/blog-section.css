@@ -1,0 +1,103 @@
+#blog {
+    padding-top: 0;
+    background: var(--primary-color);
+}
+
+.py-5 {
+    padding-top: 0;
+}
+.blog-heading-container {
+    background: var(--primary-color);
+    text-align: center;
+}
+
+.h2 {
+    text-align: center;
+    padding: 26px 10px;
+    letter-spacing: 4px;
+    font-weight: 400;
+    color: var(--primary-color-dark);
+    text-transform: uppercase;
+}
+
+.blog-container {
+    background: var(--);
+}
+.card {
+    border: none; /* Remove border */
+}
+
+.card-body {
+    padding: 1.25rem; /* Add padding */
+}
+
+.card-footer {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125); /* Add border to the bottom */
+}
+
+.card-title {
+    font-weight: 400;
+    position: relative;
+    font-size: 18px;
+    margin: 0 auto 15px;
+    padding-bottom: 15px;
+    text-transform: none;
+}
+
+.card-text {
+    color: var(--secondary-color);
+}
+
+.read-more {
+    text-transform: uppercase;
+    background: 0 0;
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+    font-size: 13px;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.pagination {
+    position: relative;
+    text-align: center;
+    margin: 20px 10px;
+    background-color: var(--primary-color);
+}
+
+.pagination,
+.page-link {
+    background-color: var(--primary-color); /* Change the background color to the primary color variable */
+}
+
+
+
+.page-item {
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.page-link {
+    display: inline-block;
+    padding: 0 8px;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--links); /* Change text color */
+    border: none;
+}
+
+.page-link:hover {
+    color: var(--primary-color-dark); /* Change text color on hover */
+}
+
+.page-item.active .page-link {
+    background-color: var(--primary-color-dark); /* Change background color of active page */
+    border-color: var(--primary-color-dark); /* Change border color of active page */
+}
+
+.page-item.disabled .page-link {
+    background-color: var(--primary-color);
+    color: var(--secondary-color-dark); /* Change text color of disabled page */
+}

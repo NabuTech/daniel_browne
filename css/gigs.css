@@ -1,0 +1,83 @@
+
+#gigs {
+    background: radial-gradient(circle, rgba(99,97,80,1) 0%, rgba(57,57,57,1) 35%, rgba(194,193,185,1) 100%);
+}
+
+
+#upcoming-gigs {
+    max-width: 890px;
+    margin: 0 auto;
+    padding: 0 10px;
+    text-align: center;
+    background: 0 0;
+    text-transform: uppercase;
+    line-height: 1.3em;
+    margin-top: 0;
+    font-family: var(--font-family);
+    margin-bottom: 0;
+    letter-spacing: 4px;
+    font-weight: 400;
+    color: var(--primary-color);
+    font-size: 18px;
+    text-align: left;
+    padding: 0 10px;
+}
+
+.table-responsive {
+    max-width: 890px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.table {
+    min-height: 350px;
+    padding: 20px 0 0;
+    margin: 0;
+}
+
+.tbody {
+    width: 100%;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.tbody:first-child{
+    padding-top: 0;
+}
+
+.gig-date {
+    width: 140px;
+    padding-right: 10px;
+    margin-bottom: 9px;
+    color: var(--secondary-color);
+    font-size: 16px;
+    letter-spacing: 2px;
+    transition: 250ms all ease;
+    font-weight: bold;
+}
+.gigs-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Center items horizontally */
+    gap: 20px; /* Adjust the gap between gigs */
+}
+
+.gig {
+    display: inline-flex; /* Keep gig elements inline */
+    gap: 30px; /* Adjust the gap between gig elements */
+    align-items: center; /* Center items vertically */
+}
+
+.gig-date {
+    font-weight: bold;
+}
+
+.gig-info {
+    margin-bottom: 10px; /* Add spacing between date and info */
+}
+
+.gig-time {
+    font-size: 14px;
+    color: var(--secondary-color);
+}

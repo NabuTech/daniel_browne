@@ -1,0 +1,15 @@
+:root {
+    --primary-color: #c8c4ba;
+    --secondary-color: #787878;
+    --links: #f0eee1;
+    --font-family: 'Proxima Nova', sans-serif;
+    --primary-color-dark: #67625a;
+    --secondary-color-dark: #464646;
+    --links-dark: #bfbfbf;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+

@@ -1,0 +1,59 @@
+
+.header {
+    transition: transform 150ms ease;
+    transform: translate3d(0,0,0);
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.logo a {
+    color: var(--links);
+}
+
+.social-icons {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons li {
+    margin-right: 10px; /* Adjust the space between icons */
+}
+
+.social-icons li:last-child {
+    margin-right: 0; /* Remove margin from the last icon */
+}
+
+.social-icons li a i {
+    color: var(--secondary-color); /* Change the color of the icons */
+}
+
+.social-icons li a i:hover {
+    color: var(--primary-color);
+}
+
+.nav-item {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.nav-item a {
+    color: var(--links);
+}
+
+.nav-item a:hover {
+    color: var(--primary-color)
+}
+
+.nav-subscribe {
+    color: var(--secondary-color);
+}

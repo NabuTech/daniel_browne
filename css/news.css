@@ -1,0 +1,25 @@
+
+#news {
+    position: relative; /* Add relative positioning to the section */
+    overflow: hidden; /* Ensure content within the section is contained */
+    background: var(--primary-color);
+}
+
+.background-img {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    filter: grayscale(); 
+    opacity: .15;
+}
+
+.card-overlay {
+    position: relative; /* Change to relative */
+    z-index: 1; /* Ensure the card overlay is above the background image */
+}
+
+.card {
+    border: none;
+    background: none;
+}
